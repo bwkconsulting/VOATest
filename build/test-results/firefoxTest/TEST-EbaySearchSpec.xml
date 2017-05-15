@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="EbaySearchSpec" tests="1" skipped="0" failures="1" errors="0" timestamp="2017-05-14T13:55:04" hostname="Ks-iMac.local" time="2.174">
+  <properties/>
+  <testcase name="a user that is not signed in can change search results sort criteria" classname="EbaySearchSpec" time="2.174">
+    <failure message="groovy.lang.MissingPropertyException: Unable to resolve bestMatch as content for geb.Page, or as a property on its Navigator context. Is bestMatch a class you forgot to import?" type="groovy.lang.MissingPropertyException">groovy.lang.MissingPropertyException: Unable to resolve bestMatch as content for geb.Page, or as a property on its Navigator context. Is bestMatch a class you forgot to import?
+	at geb.content.PageContentSupport.propertyMissing(PageContentSupport.groovy:45)
+	at geb.Page.propertyMissing(Page.groovy:112)
+	at geb.Browser.propertyMissing(Browser.groovy:216)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:60)
+	at EbaySearchSpec.a user that is not signed in can change search results sort criteria(EbaySearchSpec.groovy)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

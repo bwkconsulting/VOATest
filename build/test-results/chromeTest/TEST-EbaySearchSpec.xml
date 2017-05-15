@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="EbaySearchSpec" tests="1" skipped="0" failures="1" errors="0" timestamp="2017-05-13T23:11:54" hostname="Brian.local" time="21.322">
+  <properties/>
+  <testcase name="can get to the eBay search results page and display the sort menu" classname="EbaySearchSpec" time="21.322">
+    <failure message="org.openqa.selenium.ElementNotVisibleException: element not visible&#10;  (Session info: chrome=58.0.3029.110)&#10;  (Driver info: chromedriver=2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6),platform=Mac OS X 10.12.4 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 22 milliseconds&#10;Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'&#10;System info: host: 'Brian.local', ip: '10.0.1.5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.4', java.version: '1.7.0_80'&#10;Session ID: 5631006d38156639609c8ee3636eaaaf&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/29/91v8554j79jckpm03g4qj_dh0000gn/T/.org.chromium.Chromium.TnmDfU, chromedriverVersion=2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6)}, networkConnectionEnabled=false, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.110, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6),platform=Mac OS X 10.12.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Brian.local', ip: '10.0.1.5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.4', java.version: '1.7.0_80'
+Session ID: 5631006d38156639609c8ee3636eaaaf
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/29/91v8554j79jckpm03g4qj_dh0000gn/T/.org.chromium.Chromium.TnmDfU, chromedriverVersion=2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6)}, networkConnectionEnabled=false, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.110, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at geb.navigator.NonEmptyNavigator.click(NonEmptyNavigator.groovy:432)
+	at geb.content.TemplateDerivedPageContent.click(TemplateDerivedPageContent.groovy:71)
+	at EbaySearchSpec.can get to the eBay search results page and display the sort menu_closure4(EbaySearchSpec.groovy:31)
+	at EbaySearchSpec.can get to the eBay search results page and display the sort menu_closure4(EbaySearchSpec.groovy)
+	at geb.interaction.DefaultInteractionsSupport.interact(DefaultInteractionsSupport.groovy:34)
+	at geb.Page.interact(Page.groovy:123)
+	at geb.Browser.methodMissing(Browser.groovy:209)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	at EbaySearchSpec.can get to the eBay search results page and display the sort menu(EbaySearchSpec.groovy:30)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6) on port 46321
+Only local connections are allowed.
+]]></system-err>
+</testsuite>
