@@ -27,12 +27,12 @@ environments {
 		driver = { new FirefoxDriver() }
 	}
 
-    phantomJs {
-        driver = { new PhantomJSDriver() }
-    }
+//    phantomJs {
+//        driver = { new PhantomJSDriver() }
+//    }
 
 }
 
 // To run the tests with all browsers just run “./gradlew test”
 
-baseUrl = "http://www.ebay.co.uk"
+baseUrl = "http://automationpractice.com/index.php"
